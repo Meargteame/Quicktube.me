@@ -5,3 +5,19 @@ body{
 
 }
 
+/* Add this to your CSS file */
+.glow {
+    border: 2px solid #ffeb3b;
+    box-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
+}
+/* Add this to your CSS file */
+.light-mode {
+    background-color: #f0f0f0;
+    color: #333;
+}
+.light-mode .card {
+    background-color: #fff;
+}
+.light-mode .btn-warning {
+    background-color: #007bff;
+}
