@@ -1,0 +1,38 @@
+
+
+
+/*main hero styles*/
+.main-hero{
+    margin-top: 80px;
+}
+
+
+
+.input-field {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid white;
+
+}
+
+/*download hero styles*/
+
+.download-hero{
+    display: flex;
+    width: 960px;
+    /*border: 1px solid #f1ff00;*/
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+
+/*download main styles*/
+.download-main{
+    margin-top: 60px;
+}
+

@@ -1,65 +1,238 @@
-<!-- Landing Page  -->
+<!-- Landing Page -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QucikTube.me</title>
-    <link rel="stylehseet" href="css/bootstrap.css">
+    <title>QuickTube.me</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Input field with glowing border */
+        .input-field {
+            flex-grow: 1;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #ffc107;
+            background-color: #222;
+            color: #fff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Glow effect on focus */
+        .input-field:focus {
+            box-shadow: 0 0 10px rgba(255, 193, 7, 0.8), 0 0 20px rgba(255, 193, 7, 0.6), 0 0 30px rgba(255, 193, 7, 0.4);
+            border-color: #ffc107;
+        }
+
+        /* Button styles for a consistent look */
+        .button button, .quality button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #222;
+            border: 2px solid #ffc107;
+            color: #ffc107;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        /* Button hover effect */
+        .button button:hover, .quality button:hover {
+            background-color: #ffc107;
+            color: #222;
+            box-shadow: 0 0 10px rgba(255, 193, 7, 0.8);
+        }
+
+        /* Hero section adjustments */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-text {
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .download-hero {
+            display: flex;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+
+        .download-hero .input-field {
+            flex-grow: 2;
+        }
+
+        .download-hero .quality, .download-hero .button {
+            margin-left: 10px;
+            flex-grow: 0;
+        }
+    </style>
 </head>
 
-<body>
-    <!-- Header section -->
-    <header>
-        <div>
-            <img class="logo">
+<body class="bg-black text-light">
+<!-- Header section -->
+<header>
+    <div class="main-div container d-flex row align-items-center justify-content-around">
+        <div class="col-4 logo">
+            <a class="text-warning">QUICK TUBE</a>
         </div>
-        <div>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">How it works </a>
-                <a href="#">Contact Us</a>
-                <a href="#">Sign In </a>
-
+        <div class="col-8">
+            <nav class="nav-links d-flex align-items-center justify-content-around">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#how">How it works</a>
+                <a href="#contact">Contact Us</a>
+                <button class="sign">Light mode</button>
             </nav>
         </div>
-    </header>
-    <!-- Hero section -->
-     <section>
-        <p><span>Download YouTube Videos Instantly</span></p>
-        <p><span>Fast, Easy, and Secure</span></p>
-        <div>
-            <div><input placeholder="Paste URL Here "></div>
-            <div><button>Download</button></div>
+    </div>
+</header>
+
+<!-- Hero section -->
+<section class="hero">
+    <div class="main-hero row d-flex flex-column align-items-center justify-content-around">
+        <div class="d-flex flex-column align-items-center">
+            <p><span class="display-2 hero-text">Download YouTube Videos Instantly!</span></p>
+            <p><span class="text-warning">Fast, Easy, and Secure</span></p>
         </div>
-        <div>
-            <p><button>Learn more </button></p>
+        <div class="download-main">
+            <div class="download-hero">
+                <input class="input-field" placeholder="Paste URL Here">
+                <div class="button"><button class="text-warning">Download</button></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features section -->
+<section id="features" class="container my-5">
+    <p class="display-3 text-center">Features</p>
+    <div class="row h-100">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card bg-dark text-light">
+                <img src="images/29b61a1b-853b-4633-a3d1-628f5efc34ee.webp" class="card-img-top" alt="Feature 1 Image">
+                <div class="card-body">
+                    <h5 class="card-title">Fast Download </h5>
+<!--                    <p class="card-text">Description of the first feature.</p>-->
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card bg-dark text-light">
+                <img src="images/youtube-playlist.webp" class="card-img-top" alt="Feature 2 Image">
+                <div class="card-body">
+                    <h5 class="card-title">Download Full Youtube Playlist</h5>
+<!--                    <p class="card-text">Description of the second feature.</p>-->
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card bg-dark text-light">
+                <img src="images/video-formats.webp" class="card-img-top" alt="Feature 3 Image">
+                <div class="card-body">
+                    <h5 class="card-title">Download All Video Formats</h5>
+<!--                    <p class="card-text">Description of the third feature.</p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- How It Works section -->
+<section id="how" class="container my-5">
+    <h2 class="text-center display-3 mb-4">How It Works</h2>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card bg-dark text-light border-0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Step 1: Paste URL</h5>
+                    <p class="card-text">Copy and paste the URL of the video you want to download into the input field on the homepage.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card bg-dark text-light border-0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Step 2: Select Quality</h5>
+                    <p class="card-text">Choose the video quality you prefer from the available options to ensure you get the best resolution.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card bg-dark text-light border-0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Step 3: Download</h5>
+                    <p class="card-text">Click the download button to start saving the video to your device. Enjoy your video offline!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us section -->
+<section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-6 mb-4">
+            <h3 class="text-light mb-3">Get in Touch</h3>
+            <form>
+                <div class="form-group mb-3">
+                    <label for="name" class="text-light">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email" class="text-light">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="message" class="text-light">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Send Message</button>
+            </form>
         </div>
 
-     </section>
-    <!--Features section  -->
-    <section>
-        <div>
-            <div>
-                <img src=""><!--Icon image-->
-                <p>Download Full Playlists</p>
-            </div>
-            <div>
-                <img src=""><!--Icon image-->
-                <p>Multiple Formats</p>
-            </div>
-            <div>
-                <img src=""><!--Icon image-->
-                <p>High-Speed Downloads</p>
-            </div>
+        <!-- Contact Information -->
+        <div class="col-md-6 mb-4">
+            <h3 class="text-light mb-3">Contact Information</h3>
+            <ul class="list-unstyled">
+                <li class="mb-3">
+                    <i class="bi bi-geo-alt text-warning"></i> 123 Street Name, City, Country
+                </li>
+                <li class="mb-3">
+                    <i class="bi bi-telephone text-warning"></i> +1 234 567 890
+                </li>
+                <li class="mb-3">
+                    <i class="bi bi-envelope text-warning"></i> contact@quicktube.me
+                </li>
+            </ul>
         </div>
-    </section>
-    <!-- Footer section -->
-     <footer>
-        <a href="#">© 2024 QuickTube. All rights reserved.</a>
-     </footer>
+    </div>
+</section>
+
+
+
+<!-- Footer section -->
+<footer class="text-center py-4">
+    <a href="#" class="text-warning">© 2024 QuickTube. All rights reserved.</a>
+</footer>
 </body>
 
 </html>

@@ -1,0 +1,59 @@
+
+/*nav styles*/
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-links a:hover{
+    color: #f1ff00;
+    transition: .5s;
+}
+
+.nav-links a:hover{
+    border-bottom: 1px solid #f1ff00 ;
+    transition: 2s;
+}
+/*main div styles*/
+.main-div{
+    width: 1260px;
+    margin: 0 auto;
+}
+
+
+.main-div{
+    margin-top: 12px;
+}
+
+.logo{
+    font-family: monospace;
+}
+
+/*logo styles*/
+.logo a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/*sign in styles*/
+.sign {
+
+
+    background-color: #997404;
+    color: black;
+
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .5s;
+
+}
+
+.nav-links button:hover{
+    color: #007513;
+    background-color: #8eacff;
+
+}
