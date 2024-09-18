@@ -1,13 +1,15 @@
 
-QuickTube
-QuickTube is a minimalist platform designed for quickly downloading videos from YouTube and other popular platforms. It focuses on providing a straightforward way to download videos and playlists, aiming to deliver an efficient and user-friendly experience.
+#QuickTube
+QuickTube is a minimalist platform designed for quickly downloading videos from YouTube and other popular platforms. 
+It focuses on providing a straightforward way to download videos and playlists, aiming to deliver an efficient and user-friendly experience.
 
-Features
+#Features
 Download Single Videos: Easily download individual videos from YouTube and other supported platforms.
 Download Playlists: Support for downloading entire playlists with a single click.
 Minimalistic Design: Clean and simple interface built using HTML and CSS.
 Backend in Node.js: Handles video downloading functionality efficiently.
-Technologies Used
+
+#Technologies Used
 Frontend: HTML, CSS, Vanilla JavaScript
 Backend: FLASK 
 Video Downloading: yt_dlp library
@@ -20,7 +22,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/quicktube.git
+git clone https://github.com/Meargteame/Quicktube.me.git
 Navigate to the project directory:
 
 bash
@@ -28,7 +30,7 @@ Copy code
 cd quicktube
 Install dependencies:
 
-For the backend:
+#For the backend:
 
 bash
 Copy code
@@ -43,6 +45,9 @@ Open your browser and go to:
 arduino
 Copy code
 http://localhost:3000
+
+
+
 #Usage
 To download a video:
 Enter the video URL in the provided input field and click the download button.
@@ -58,7 +63,7 @@ Submit a pull request with a clear description of the changes.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+#Contact
 For any questions or support, please contact:
 
 Your Name - MEAREG TEAME GEBREMESKEL
