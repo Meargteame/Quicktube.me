@@ -1,0 +1,84 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* Add this to your CSS file */
+.glow {
+    border: 2px solid #ffeb3b;
+    box-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
+}
+/* Add this to your CSS file */
+.light-mode {
+    background-color: #f0f0f0;
+    color: #333;
+}
+.light-mode .card {
+    background-color: #fff;
+}
+.light-mode .btn-warning {
+    background-color: #007bff;
+}
+
+/* Input field with glowing border */
+.input-field {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffc107;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Glow effect on focus */
+.input-field:focus {
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.8), 0 0 20px rgba(255, 193, 7, 0.6), 0 0 30px rgba(255, 193, 7, 0.4);
+    border-color: #ffc107;
+}
+
+/* Button styles for a consistent look */
+.button button, .quality button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #222;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+/* Hero section adjustments */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.download-hero {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.download-hero .input-field {
+    flex-grow: 2;
+}
+
+.download-hero .quality, .download-hero .button {
+    margin-left: 10px;
+    flex-grow: 0;
+}
