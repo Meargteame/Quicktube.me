@@ -2,7 +2,7 @@
 
 QuickTube is a **minimalist yet powerful YouTube video downloader** that allows users to easily download videos and playlists. The platform is designed with **efficiency and user-friendliness in mind**, supporting high-speed downloads with a clean interface.  
 
-![QuickTube Banner](https://via.placeholder.com/1000x400?text=QuickTube) <!-- Replace with actual image -->  
+![QuickTube Banner](../Quicktube.me/images/home_download.jpg) <!-- Replace with actual image -->  
 
 ---
 
@@ -27,13 +27,10 @@ QuickTube is a **minimalist yet powerful YouTube video downloader** that allows 
 
 ## 📸 Screenshots  
 
-| Home Page | Video Download |  
+| Home Page | Video Download |  Playlist Download
 |-----------|---------------|  
-| ![Home](https://via.placeholder.com/400) | ![Download](https://via.placeholder.com/400) |  
+| ![Home](../Quicktube.me/images/home_download.jpg) | ![Features](../Quicktube.me/images/features.jpg) |![Playlist](../Quicktube.me/images/playlist_download.jpg.jpg) |
 
-<!-- Replace placeholders with actual screenshots -->  
-
----
 
 ## 📂 Installation & Setup  
 
