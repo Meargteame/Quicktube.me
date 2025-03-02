@@ -27,11 +27,11 @@ QuickTube is a **minimalist yet powerful YouTube video downloader** that allows 
 
 ## 📸 Screenshots  
 
-    Home Page    
+### Home Page    
  ![Home](images/home_download.jpg) 
-    Video Download
+### Video Download
  ![Features](images/features.jpg) 
-    Playlist Download
+### Playlist Download
  ![Playlist](images/playlist_download.jpg.jpg) 
 
 
