@@ -83,7 +83,7 @@ Click the Download Playlist button
 
 ## 📬 Contact
 ```
-📧 Meareg Teame Gebremeskel – mearegteame99995555@gmail.com
+📧 Meareg Teame Gebremeskel – mearegteame99995555@gmail.com meareg.gebremeskel@a2sv.org
 🔗 GitHub: Meargteame
 ```
 🌟 If you find this project useful, give it a star! ⭐
